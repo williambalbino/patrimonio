@@ -11,7 +11,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 @Entity
 public class Item {
-
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
@@ -80,6 +80,5 @@ public class Item {
 			return false;
 		return true;
 	}
-	
-	
+
 }
