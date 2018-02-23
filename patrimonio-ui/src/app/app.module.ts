@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ItemCadastroComponent } from './item-cadastro/item-cadastro.component';
 import { ItemService } from './item.service';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { ItemService } from './item.service';
     InputMaskModule,
     InputTextModule,
     CalendarModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [ItemService],
   bootstrap: [AppComponent]
